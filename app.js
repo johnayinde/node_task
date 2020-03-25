@@ -10,12 +10,12 @@ http.createServer((req, res) => {
     }
     else if (req.method === 'POST') {
         let body = '';
-        req.on('data', function (formData) {
+        req.on('data', (formData) => {
             body += formData;
         });
 
-        req.on('end', function () {
-            fs.writeFile('message.txt', body, function (err) {
+        req.on('end', () => {
+            fs.writeFile('message.txt', body, (err) => {
                 if (err) {
                     console.log(err)
                 }
