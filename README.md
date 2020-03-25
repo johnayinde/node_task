@@ -19,8 +19,12 @@ CLUE: You can use "res.write()" to write html tags like forms, inputs, buttons a
 USEFUL RESOURCES:
  
 https://www.w3schools.com/nodejs/nodejs_filesystem.asp.
+
 https://www.geeksforgeeks.org/javascript-program-to-write-data-in-a-text-file/
+
 https://www.quora.com/How-do-I-fs-append-post-HTML-form-input-to-a-text-file-in-a-local-storage-by-using-Node-js
+
 https://www.c-sharpcorner.com/UploadFile/dacca2/node-js-in-action-create-simple-text-file-in-node-js-using/
+
 https://stackoverflow.com/questions/4295782/how-to-process-post-data-in-node-js
  
